@@ -36,6 +36,10 @@ p {
   line-height: 30px;
 }
 
+li{
+  font-family: var(--default-font-family) !important;
+}
+
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
@@ -113,6 +117,9 @@ p {
 
 .media {
   border-radius: 15px;
+}
+nav a:hover, .current {
+  color: var(--branding-color) !important;
 }
 
 @media (max-width: 960px) {
