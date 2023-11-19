@@ -67,11 +67,17 @@ li{
 .btn-primary {
   color: white;
   background-color: var(--branding-color);
-  border: #6c63ff;
+  border:var(--branding-color);
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.btn-primary:hover{
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  border: 1px solid;
 }
 
 .btn-branding-outline {
@@ -81,6 +87,11 @@ li{
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.btn-branding-outline:hover {
+color: var(--secondary-color);
+background-color: var(--branding-color);
 }
 
 .project-description {
